@@ -29,17 +29,6 @@ class CompitionCell: UITableViewCell {
         self.currentMatchDay.text = "Current Match day :- \(model.currentSeason?.currentMatchday ?? 0 )"
         self.leagueImage.loadDataUsingCacheWithUrlString(urlString: model.emblem ?? "")
     }
-    func configOffline(model: CompetitionDataModel){
-        if let code = model.code {
-            self.leagueCode.text = "(\(code))"
-        }else{
-            self.leagueCode.text = ""
-        }
-        self.leagueName.text = model.name ?? ""
-        self.numOfSeason.text =  "Number of Available Seasons :- \(model.numSeasons)"
-        self.currentMatchDay.text = "Current Match day :- \(model.currentMatch )"
-        self.leagueImage.loadDataUsingCacheWithUrlString(urlString: model.image ?? "")
-    }
     
     override func prepareForReuse() {
         super.prepareForReuse()

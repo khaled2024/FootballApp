@@ -9,7 +9,6 @@ import UIKit
 class MainViewModel{
     var compitionsArr: [Competition] = []
     
-    var compitionsArrOffline: [CompetitionDataModel] = []
     let monitor = NetworkMonitor.shared
 
     let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext

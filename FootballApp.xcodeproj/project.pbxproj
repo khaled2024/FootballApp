@@ -10,9 +10,6 @@
 		EA072D352CEE18640064DAC1 /* MatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA072D342CEE18640064DAC1 /* MatchViewController.swift */; };
 		EA072D372CEE1CF20064DAC1 /* MatchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA072D362CEE1CF20064DAC1 /* MatchViewModel.swift */; };
 		EA072D392CEE5E1C0064DAC1 /* extesnion+uiviewcontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA072D382CEE5E1C0064DAC1 /* extesnion+uiviewcontroller.swift */; };
-		EA072D4D2CEE622A0064DAC1 /* CompetitionDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EA072D4B2CEE622A0064DAC1 /* CompetitionDataModel.xcdatamodeld */; };
-		EA072D7A2CEE6C920064DAC1 /* CompetitionDataModel+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA072D782CEE6C920064DAC1 /* CompetitionDataModel+CoreDataClass.swift */; };
-		EA072D7B2CEE6C920064DAC1 /* CompetitionDataModel+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA072D792CEE6C920064DAC1 /* CompetitionDataModel+CoreDataProperties.swift */; };
 		EA072D7E2CEE72CD0064DAC1 /* NetworkMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA072D7D2CEE72CD0064DAC1 /* NetworkMonitor.swift */; };
 		EA1BE77F2CEE7D9C00E59503 /* FavVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1BE77E2CEE7D9C00E59503 /* FavVC.swift */; };
 		EA1BE7842CEE81B700E59503 /* MatchDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EA1BE7822CEE81B700E59503 /* MatchDataModel.xcdatamodeld */; };
@@ -44,9 +41,6 @@
 		EA072D342CEE18640064DAC1 /* MatchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchViewController.swift; sourceTree = "<group>"; };
 		EA072D362CEE1CF20064DAC1 /* MatchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchViewModel.swift; sourceTree = "<group>"; };
 		EA072D382CEE5E1C0064DAC1 /* extesnion+uiviewcontroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "extesnion+uiviewcontroller.swift"; sourceTree = "<group>"; };
-		EA072D4C2CEE622A0064DAC1 /* CompetitionDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CompetitionDataModel.xcdatamodel; sourceTree = "<group>"; };
-		EA072D782CEE6C920064DAC1 /* CompetitionDataModel+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CompetitionDataModel+CoreDataClass.swift"; sourceTree = "<group>"; };
-		EA072D792CEE6C920064DAC1 /* CompetitionDataModel+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CompetitionDataModel+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		EA072D7D2CEE72CD0064DAC1 /* NetworkMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkMonitor.swift; sourceTree = "<group>"; };
 		EA1BE77E2CEE7D9C00E59503 /* FavVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavVC.swift; sourceTree = "<group>"; };
 		EA1BE7832CEE81B700E59503 /* MatchDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MatchDataModel.xcdatamodel; sourceTree = "<group>"; };
@@ -91,7 +85,6 @@
 			isa = PBXGroup;
 			children = (
 				EA1BE7812CEE819900E59503 /* MatchDataModel */,
-				EA1BE7802CEE818C00E59503 /* CompetitionModel */,
 			);
 			path = CoreData;
 			sourceTree = "<group>";
@@ -102,16 +95,6 @@
 				EA072D7D2CEE72CD0064DAC1 /* NetworkMonitor.swift */,
 			);
 			path = NetworkManager;
-			sourceTree = "<group>";
-		};
-		EA1BE7802CEE818C00E59503 /* CompetitionModel */ = {
-			isa = PBXGroup;
-			children = (
-				EA072D782CEE6C920064DAC1 /* CompetitionDataModel+CoreDataClass.swift */,
-				EA072D792CEE6C920064DAC1 /* CompetitionDataModel+CoreDataProperties.swift */,
-				EA072D4B2CEE622A0064DAC1 /* CompetitionDataModel.xcdatamodeld */,
-			);
-			path = CompetitionModel;
 			sourceTree = "<group>";
 		};
 		EA1BE7812CEE819900E59503 /* MatchDataModel */ = {
@@ -363,8 +346,6 @@
 				EABDEA2F2CEE8295006ABCF2 /* MatchDataModel+CoreDataClass.swift in Sources */,
 				EABDEA302CEE8295006ABCF2 /* MatchDataModel+CoreDataProperties.swift in Sources */,
 				EA4A78022CED4138003B5E8E /* AlertRepresenter.swift in Sources */,
-				EA072D7A2CEE6C920064DAC1 /* CompetitionDataModel+CoreDataClass.swift in Sources */,
-				EA072D7B2CEE6C920064DAC1 /* CompetitionDataModel+CoreDataProperties.swift in Sources */,
 				EA9218F72CEDF45E0038E75F /* CompeDetailsCell.swift in Sources */,
 				EA4A78032CED4138003B5E8E /* Constant.swift in Sources */,
 				EABA6F5A2CED2A07001ED89F /* NetworkManager.swift in Sources */,
@@ -378,7 +359,6 @@
 				EA1BE7842CEE81B700E59503 /* MatchDataModel.xcdatamodeld in Sources */,
 				EA4A78062CED4394003B5E8E /* extensions+UiView.swift in Sources */,
 				EABA6F532CED29FB001ED89F /* MainVC.swift in Sources */,
-				EA072D4D2CEE622A0064DAC1 /* CompetitionDataModel.xcdatamodeld in Sources */,
 				EA9218EF2CEDDDD50038E75F /* CometetionDetailsViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -602,16 +582,6 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		EA072D4B2CEE622A0064DAC1 /* CompetitionDataModel.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				EA072D4C2CEE622A0064DAC1 /* CompetitionDataModel.xcdatamodel */,
-			);
-			currentVersion = EA072D4C2CEE622A0064DAC1 /* CompetitionDataModel.xcdatamodel */;
-			path = CompetitionDataModel.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
 		EA1BE7822CEE81B700E59503 /* MatchDataModel.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
