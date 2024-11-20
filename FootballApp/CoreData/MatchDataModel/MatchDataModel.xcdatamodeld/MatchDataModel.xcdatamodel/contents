@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="23231" systemVersion="24B83" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithSwiftData="YES" userDefinedModelVersionIdentifier="">
+    <entity name="MatchDataModel" representedClassName="MatchDataModel" syncable="YES">
+        <attribute name="awayCode" optional="YES" attributeType="String"/>
+        <attribute name="awayImage" optional="YES" attributeType="String"/>
+        <attribute name="awayName" optional="YES" attributeType="String"/>
+        <attribute name="awayResult" optional="YES" attributeType="String"/>
+        <attribute name="homeCode" optional="YES" attributeType="String"/>
+        <attribute name="homeImage" optional="YES" attributeType="String"/>
+        <attribute name="homeName" optional="YES" attributeType="String"/>
+        <attribute name="homeResult" optional="YES" attributeType="String"/>
+        <attribute name="status" optional="YES" attributeType="String"/>
+    </entity>
+</model>
