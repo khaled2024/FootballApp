@@ -20,6 +20,10 @@ class MainVC: UIViewController {
         self.navigationController?.navigationBar.prefersLargeTitles = true
         self.compitionTV.separatorStyle = .none
         self.heartView.makeViewCircle()
+        self.heartView.layer.shadowColor = UIColor.red.cgColor
+        self.heartView.layer.shadowRadius = 5
+        self.heartView.layer.shadowOpacity = 0.3
+        self.heartView.layer.shadowOffset = CGSize(width: 1, height: 1)
     }
     override func viewDidLoad() {
         super.viewDidLoad()
